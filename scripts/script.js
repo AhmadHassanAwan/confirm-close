@@ -12,7 +12,7 @@ Fiverr: https://www.fiverr.com/ahmadhassanawan
         console.log("All Tabs", allTabs);
         console.log("Selected Tabs", selectedTabs);
 
-        if (allTabs) { 
+        if (allTabs) {
             let body = document.getElementsByTagName("body")[0];
             body.click();
             window.onbeforeunload = function (e) {
